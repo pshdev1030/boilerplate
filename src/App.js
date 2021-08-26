@@ -1,12 +1,14 @@
 import React from 'react';
-import Module from '@/Component/Module';
+import Boards from '@/Page/boards/index';
+import { ToastContainer } from 'react-toastify';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Module></Module>
-    </div>
+    <>
+      <Boards />
+      <ToastContainer />
+    </>
   );
-}
+};
 
 export default App;
